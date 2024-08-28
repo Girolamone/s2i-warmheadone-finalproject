@@ -1,4 +1,4 @@
-#  React Project
+#  Final Project for Start2Impact University
 <img alt="Screen" src="https://github.com/Girolamone/s2i-warmheadone-finalproject/blob/main/public/readmeimg.png">
 
 ## Used Languages
@@ -8,13 +8,13 @@
 * React
 
 ## About:
-This is a project for the React course at start2impact University. It's designed to be minimalistic and futurewise expandable. It uses Spoonacular API for results, filtered exclusevly for Vegan recipes
+This is my final project start2impact University. It's designed to be minimalistic and futurewise expandable. It uses Global Warmings API for graphs, in which you can find O2, NO2, Global Temperature, Global Sea Levels and Methane.
 <ul> 
-<li>Welcome to Veegana, your ultimate destination for vegetarian recipes! Veegana is dedicated to providing a wide array of delicious plant-based dishes. Whether you're looking for hearty mains, nutritious salads, or delightful desserts, Veegana offers a variety of recipes to suit every taste. Join us in celebrating the flavors and benefits of vegetarian cuisine, and discover how easy and enjoyable it can be to incorporate more plant-based meals into your lifestyle with Veegana.</li>
+<li>The website welcomes you with a slideshow of the graphs mentioned above, if you want to expand your knoledge about every thematic you can find them in the Wiki section of the website.</li>
 
-## WARNING: The API has a limit use of 150 Points based on Spoonacular DOCS for free users, if the searchbar won't find any result please come by the next morning.
+## WARNING: The Temperature API seems to work not everyday, if the graph ot Global Temperature doesn't show up please come again the next day.
 
 ## Give it a go, also works on Mobile.
-🥦<a href="https://veegana.netlify.app">Veegana</a>🥦
+🌍<a href="https://warmheadone.netlify.app">Warmhead One</a>🌍
 
 
