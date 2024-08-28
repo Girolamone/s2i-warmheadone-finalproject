@@ -1,0 +1,70 @@
+/* CarouselStyles.css */
+
+/* Imposta un'altezza fissa per il carosello */
+.carousel {
+    background-color: #003049; /* Imposta il colore di sfondo del carosello */
+    height: 800px;
+    z-index: 3; /* Imposta l'altezza del carosello */
+  }
+  
+  /* Imposta un'altezza fissa per le diapositive */
+  .carousel-item {
+    background-color: #003049; /* Imposta il colore di sfondo delle diapositive */
+    height: 100%; /* Assicurati che le diapositive occupino tutta l'altezza del carosello */
+  
+  }
+  
+  /* Sfondo del contenuto del carosello */
+  .carousel-content {
+    background-color: rgba(0, 48, 73, 0.8); /* Sfondo semi-trasparente per il contenuto */
+    padding: 60px; /* Aggiungi padding se necessario */
+    text-align: center; /* Allinea il testo al centro */
+    height: calc(100% - 60px); /* Calcola l'altezza in base all'altezza del carosello e allo spazio per la didascalia */
+    overflow: auto; /* Aggiungi scroll se necessario */
+  }
+  
+  /* Sfondo delle didascalie */
+  .carousel-caption {
+    background-color: rgba(0, 48, 73, 0.6); /* Sfondo semi-trasparente per le didascalie */
+    color: #fff; /* Colore del testo */
+    position: absolute; /* Posiziona le didascalie in modo assoluto */
+    bottom: 0; /* Posiziona le didascalie in basso */
+    left: 0; /* Allinea le didascalie a sinistra */
+    width: 100%; /* Larghezza completa */
+    padding: 0px; /* Padding per un migliore aspetto */
+    text-align: center; /* Allinea il testo al centro */
+    height: 60px; /* Imposta l'altezza delle didascalie */
+  }
+  
+  /* Bottoni di navigazione (prev e next) */
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: rgba(0, 48, 73, 0.4); /* Sfondo semi-trasparente per i bottoni di navigazione */
+  }
+  
+  /* Icone dei bottoni di navigazione */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 48, 73, 0.6); /* Sfondo semi-trasparente per le icone dei bottoni di navigazione */
+  }
+  
+  /* Indicatori di paginazione */
+  .carousel-indicators li {
+    background-color: rgba(0, 48, 73, 0.6); /* Sfondo semi-trasparente per gli indicatori */
+  }
+  
+  .carousel-indicators .active {
+    background-color: rgba(0, 48, 73, 0.8); /* Più scuro per l'indicatore attivo */
+  }
+
+/* Personalizza la durata della transizione */
+.carousel-fade .carousel-item {
+  transition: opacity 1s ease-out; /* Imposta la durata dell'effetto fade */
+}
+
+/* Sovrascrivi la transizione di Bootstrap per le slide attive */
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+  transition: opacity 2s ease-out; /* Imposta la durata della transizione */
+}

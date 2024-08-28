@@ -1,0 +1,78 @@
+body {
+    background-color: #003049;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100vh;
+}
+
+html {
+    height: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.arctic-info {
+    background-color: #fdf0d5;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 200px;
+    color: #003049;
+}
+
+.arctic-chart {
+    padding: 20px;
+    background-color: none;
+    min-height: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .arctic-info, .arctic-chart {
+        padding: 10px;
+    }
+    
+    .arctic-info {
+        min-height: 150px;
+    }
+
+    .arctic-chart {
+        min-height: 300px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 5px;
+    }
+
+    .arctic-info, .arctic-chart {
+        padding: 5px;
+    }
+    
+    .arctic-info {
+        min-height: 120px;
+    }
+
+    .arctic-chart {
+        min-height: 250px;
+        margin-bottom: 20px;
+    }
+}

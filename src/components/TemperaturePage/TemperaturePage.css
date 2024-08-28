@@ -1,0 +1,20 @@
+body {
+    background-color: #003049;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+.temperature-info {
+    background-color: #fdf0d5; 
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 200px; 
+}
+
+.temperature-chart {
+    background-color: none; 
+    padding: 20px;
+    border-radius: 8px;
+    min-height: 200px; 
+}

@@ -1,0 +1,23 @@
+.arctic-chart {
+    width: 100%;
+    max-width: 1200px;
+    min-height: 400px; 
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 768px) {
+    .arctic-chart {
+        max-width: 90%;
+        height: 400px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .arctic-chart {
+        max-width: 95%;
+        height: 300px;
+    }
+}

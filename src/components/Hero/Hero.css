@@ -1,0 +1,66 @@
+.hero--box {
+  background-color: #fdf0d5;
+  height: 250px; /* Mantieni l'altezza fissa */
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px; /* Riduci il padding orizzontale per adattare meglio il testo */
+  overflow: hidden; /* Nasconde il contenuto che esce dal box */
+}
+
+.hero--text {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  color: #333; /* Colore del testo */
+  width: 100%;
+  max-width: 1200px; /* Limita la larghezza del contenuto */
+}
+
+.hero--title, .hero--description {
+  margin: 0;
+}
+
+.hero--title {
+  font-size: 2rem; /* Imposta la dimensione del font per desktop */
+  line-height: 1.2; /* Altezza della linea per migliorare la leggibilità */
+}
+
+.hero--description {
+  font-size: 1rem; /* Dimensione del font per desktop */
+  margin-top: 2px; /* Spazio tra il titolo e la descrizione */
+}
+
+.front-logo {
+  width: 40px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .hero--title {
+      font-size: 1.5rem; /* Riduci la dimensione del font per tablet */
+      
+      
+  }
+
+  .hero--box {
+    height: 300px;
+  }
+
+  .hero--description {
+      font-size: 0.875rem; /* Riduci la dimensione del font per tablet */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero--title {
+      font-size: 1.25rem; /* Ulteriore riduzione della dimensione del font per smartphone */
+  }
+
+  .hero--description {
+      font-size: 0.75rem; /* Ulteriore riduzione della dimensione del font per smartphone */
+  }
+}
+

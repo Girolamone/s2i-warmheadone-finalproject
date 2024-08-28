@@ -1,0 +1,79 @@
+body {
+    background-color: #003049;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100vh;
+}
+
+html {
+    height: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.co2-info {
+    background-color: #fdf0d5;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 200px;
+    width: 100%;
+    color: #003049;
+}
+
+.co2-chart {
+    padding: 0px;
+    background-color: none;
+    min-height: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .co2-info, .co2-chart {
+        padding: 10px;
+    }
+    
+    .co2-info {
+        min-height: 150px;
+    }
+
+    .co2-chart {
+        min-height: 300px;
+        margin-bottom: 510px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 5px;
+    }
+
+    .co2-info, .co2-chart {
+        padding: 5px;
+    }
+    
+    .co2-info {
+        min-height: 120px;
+    }
+
+    .co2-chart {
+        min-height: 250px;
+        margin-bottom: 20px;
+    }
+}
